@@ -1,11 +1,3 @@
--- Candidats
-INSERT INTO Candidat (nom, prenom, matricule) VALUES
-('Rakoto', 'Jean', 'MAT001'),
-('Rabe', 'Marie', 'MAT002'),
-('Andrianina', 'Paul', 'MAT003'),
-('Razanaka', 'Luc', 'MAT004'),
-('Rakotomalala', 'Sofia', 'MAT005');
-
 -- Correcteurs
 INSERT INTO Correcteur (nom) VALUES
 ('Rasoa Andry'),
@@ -21,6 +13,14 @@ INSERT INTO Matiere (nom) VALUES
 ('Chimie'),
 ('Informatique'),
 ('Biologie');
+
+-- Candidats
+INSERT INTO Candidat (nom, prenom, matricule) VALUES
+('Rakoto', 'Jean', 'MAT001'),
+('Rabe', 'Marie', 'MAT002'),
+('Andrianina', 'Paul', 'MAT003'),
+('Razanaka', 'Luc', 'MAT004'),
+('Rakotomalala', 'Sofia', 'MAT005');
 
 -- Résolutions
 INSERT INTO Resolution (nom) VALUES
